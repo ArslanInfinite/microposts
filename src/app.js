@@ -1,7 +1,11 @@
 // es2015 module syntax
-import { person, sayHello } from './mymodule2'
-console.log(person.email)
-console.log(sayHello())
+// import { person, sayHello } from './mymodule2'
+import greeting from './mymodule2'
+// import * as mymodule2 from './mymodule2'
+
+// console.log(mymodule2.person.email)
+// console.log(mymodule2.sayHello())
+console.log(greeting)
 
 // commonjs module syntax
 // const person = require('./mymodule1')
